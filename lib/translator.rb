@@ -1,6 +1,6 @@
 # require modules here
 
-def load_library(file_path)
+def load_library(file)
    require "yaml"
    library = YAML
 end
