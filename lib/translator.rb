@@ -7,7 +7,7 @@ def load_library(file)
    dict = {"get_meaning" => {}, "get_emoticon" => {}}
    lib.each do |meaning,emoticon|
      lib["get_meaning"]
-     lib[]
+     lib["get_emoticon"]
 
 end
 
