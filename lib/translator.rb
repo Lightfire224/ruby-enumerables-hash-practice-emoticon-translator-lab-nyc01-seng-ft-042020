@@ -6,8 +6,9 @@ def load_library(file)
    lib = YAML.load_file(file)
    dict = {"get_meaning" => {}, "get_emoticon" => {}}
    lib.each do |meaning,emoticon|
-     lib["get_meaning"]
-     lib["get_emoticon"]
+    lib["get_meaning"][emoticons[1]] = meaning
+    lib["get_emoticon"][emoticons[0]] = emoticons[1]
+  end
 
 end
 
