@@ -4,7 +4,8 @@ require "pry"
 
 def load_library(file)
    library = YAML.load_file(file)
-   
+   dict = {"get_meaning" => {}, "get_emoticon" => {}}
+
 end
 
 def get_japanese_emoticon
