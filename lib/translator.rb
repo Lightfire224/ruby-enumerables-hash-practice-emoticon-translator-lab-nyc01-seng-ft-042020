@@ -5,7 +5,7 @@ require "pry"
 def load_library(file)
    lib = YAML.load_file(file)
    dict = {"get_meaning" => {}, "get_emoticon" => {}}
-   lib
+   lib.each do 
 
 end
 
