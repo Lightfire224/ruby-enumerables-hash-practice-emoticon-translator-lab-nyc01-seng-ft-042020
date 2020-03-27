@@ -3,8 +3,9 @@ require "yaml"
 require "pry"
 
 def load_library(file)
-   library = YAML.load_file(file)
+   lib = YAML.load_file(file)
    dict = {"get_meaning" => {}, "get_emoticon" => {}}
+   lib
 
 end
 
