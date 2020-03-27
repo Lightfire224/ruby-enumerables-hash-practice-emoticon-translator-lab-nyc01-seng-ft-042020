@@ -9,7 +9,7 @@ def load_library(file)
     lib["get_meaning"][emoticons[1]] = meaning
     lib["get_emoticon"][emoticons[0]] = emoticons[1]
   end
-
+  lib
 end
 
 def get_japanese_emoticon
