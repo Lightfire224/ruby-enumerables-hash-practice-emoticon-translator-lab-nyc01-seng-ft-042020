@@ -3,7 +3,6 @@ require "yaml"
 require "pry"
 
 def load_library(file)
-   require "yaml"
    library = YAML.load_file(file)
 end
 
